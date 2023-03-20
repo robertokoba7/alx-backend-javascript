@@ -3,7 +3,7 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    /* eslist-disabled*/
+    /* eslint-disabled*/
     const task = true;
     const task2 = false;
   }
