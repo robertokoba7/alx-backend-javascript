@@ -1,5 +1,5 @@
 /* eslint-disabled import/extensions */
-import { uploadPhoto, createUser } from './utils'
+import { uploadPhoto, createUser } from './utils';
 
 export default function handleProfileSignup() {
   const upload = uploadPhoto();
