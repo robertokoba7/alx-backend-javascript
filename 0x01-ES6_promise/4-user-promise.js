@@ -4,5 +4,4 @@ function signUpUser(firstName, lastName) {
     lastName,
   })
 }
-
 export default signUpUser;
