@@ -5,11 +5,11 @@ class HolbertonClass {
   }
 
   [Symbol.toPrimitive](generate) {
-    if (generate === 'nummber') {
+    if (generate === 'number') {
       return this._size;
     }
     if (generate === 'string') {
-      return this._string;
+      return this._location;
     }
     return this;
   }
