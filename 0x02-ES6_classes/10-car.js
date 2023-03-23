@@ -11,7 +11,7 @@ class Car {
 
   cloneCar() {
     const Species = this.constructor[Symbol.species];
-      return new Species();
+    return new Species();
   }
 }
 
