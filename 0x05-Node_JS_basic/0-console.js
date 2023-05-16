@@ -1,3 +1,3 @@
-function displayMessage(string) => console.log(string);:wq
+const displayMessage(string) => console.log(string);:wq
 
 module.exports = displayMessage;
